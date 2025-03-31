@@ -2,10 +2,10 @@
 
 This repository contains an implementation of **Neural Machine Translation (NMT)** models to translate sentences from **English to Hindi** using both:
 
-- 🔁 **LSTM Encoder-Decoder with Attention**
-- ⚡ **Transformer Encoder-Decoder**
+-  **LSTM Encoder-Decoder with Attention**
+-  **Transformer Encoder-Decoder**
 
-Developed as part of an **Assignment ** for the course `CSL7640: Natural Language Understanding` at IIT Jodhpur (AY 2024–25).
+Developed as part of an **Assignment** for the course `CSL7640: Natural Language Understanding` at IIT Jodhpur (AY 2024–25).
 
 ---
 
@@ -21,7 +21,7 @@ Developed as part of an **Assignment ** for the course `CSL7640: Natural Languag
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Translate English sentences into grammatically correct Hindi using an NMT system. The dataset is aligned and tokenized with `<sos>` and `<eos>` tokens added to both source and target sentences.
 
@@ -40,12 +40,12 @@ Translate English sentences into grammatically correct Hindi using an NMT system
 
 ## 🛠 Models Implemented
 
-### 🔁 LSTM Encoder-Decoder with Attention
+###  LSTM Encoder-Decoder with Attention
 - Bidirectional LSTM encoder
 - Unidirectional decoder with dot-product attention
 - Teacher forcing for training
 
-### ⚡ Transformer Encoder-Decoder
+###  Transformer Encoder-Decoder
 - Positional Encoding
 - Multi-head Self-Attention
 - Layer Normalization
